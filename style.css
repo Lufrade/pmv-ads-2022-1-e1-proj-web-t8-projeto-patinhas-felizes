@@ -1,0 +1,49 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+body{
+
+	background: #B9D9F2;
+
+}
+
+#menu{
+
+    list-style-type: none;
+    background-color: #FFFFFF;
+    padding: 0;
+
+}
+#menu li{
+
+    display: inline;
+
+}
+#menu li a{
+
+    color:#7092bF;
+    text-decoration: none;
+    display:inline-block;
+    padding: 20px;
+}
+
+#menu li a:hover{
+
+    color:#FFC90D;
+
+}
+#menu li:last-child a{
+
+    float: right;
+    color: #000000;
+}
+#menu li:last-child a:hover{
+
+    color:#FFC90D;
+    
+}
